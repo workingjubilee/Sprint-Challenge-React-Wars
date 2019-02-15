@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import './reset.css';
 import './App.css';
+import ImperialMarch from './components/ImperialMarch'
 
 class App extends Component {
   constructor() {
@@ -33,9 +35,13 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <ImperialMarch incArray={this.state.starwarsChars} />
+
       </div>
     );
   }
 }
+
+<pre>this.state = {JSON.stringify(this.state, null, 2)}</pre>
 
 export default App;

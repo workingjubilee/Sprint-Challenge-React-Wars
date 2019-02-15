@@ -4,5 +4,15 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 4rem;
+}
+* {
+  max-width: 100%;
+}
+html {
+  box-sizing:border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 /* write your parent styles in here for your App.js */
