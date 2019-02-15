@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a library (you get it usable in your html via imports) that everyone calls a framework because it attempts to solve problems that were also attempted by previous frameworks. It uses tricks like a one-way virtual DOM, state immutability, and synthetic events to abstract away many concerns and essentially to try to prevent programmers from hurting themselves or their users, e.g. by doing things like adding too many event listeners to a page and causing a massive performance issue
+
 - [ ] What does it mean to _think_ in react?
+
+I have no idea, since compositional thinking is reasonably natural to me and was introduced to me before I touched JavaScript, though I didn't exercise it much, so the only thing that feels unique to React specifically is how the entire thing is the Pen-Pineapple-Apple-Pen song, but it's slamming together JS and HTML.
 
 - [ ] Describe state.
 
+It's just... what's going on... It's still just what is going on. It's immutable, but that's because you CAN'T CHANGE THE PAST. Immutability means the state can be rewound, hypothetically, to previous states, because state is displaced by a new state when it "mutates" via setState, rather than truly changed.
+
 - [ ] Describe props.
+
+They're an object that can move information from component to component in React, serving as a courier route for information.
 
 ## Project Set Up
 
